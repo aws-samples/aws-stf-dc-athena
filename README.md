@@ -44,7 +44,7 @@ This CDK application contains [three stacks](./bin/stf-dc-athena.ts) that enable
 <br>
 
 
-- A stack that creates a Database for Athena. You can set the name of the database in the file [parameters.ts](./parameters.ts) but we recommend we keep the default one: `stfdatabase`. If you have already created the database, you can comment it. 
+- A stack that creates a Database for Athena. You can set the name of the database in the file [parameters.ts](./parameters.ts) but we recommend to keep the default one: `stfdatabase`. If you have already created the database, you can comment it. 
 
 
 - A stack to deploy a Table for Athena. This table is created using the schema defined in the file [schema.ts](./schema.ts). You can deploy this stack multiple times using different schemas. In this application, we create a table for entities of type [IndoorEnvironmentObserved](https://github.com/smart-data-models/dataModel.Environment/blob/master/IndoorEnvironmentObserved/README.md). Note that we use properties from the [AirQualityObserved](https://github.com/smart-data-models/dataModel.Environment/tree/master/AirQualityObserved) model. To deploy this stack, you must provide the type of your entities (as stored in the STF IoT Data Lake), the schema that contains the properties (see [schema.ts](./schema.ts)) and the name of the STF IoT Datalake bucket.
