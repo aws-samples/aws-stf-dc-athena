@@ -2,7 +2,9 @@
 # Smart Territory Framework - Data Consumer using Amazon Athena
 
 This repository contains a CDK application of a Data Consumer using [Amazon Athena](https://aws.amazon.com/athena). 
+
 Amazon Athena is an interactive query service that makes it easy to analyze data in Amazon S3 using standard SQL. Athena is serverless, so there is no infrastructure to manage, and you pay only for the queries that you run.
+
 Athena is easy to use. Simply point to your data in Amazon S3, define the schema, and start querying using standard SQL. Most results are delivered within seconds. With Athena, there’s no need for complex ETL jobs to prepare your data for analysis. This makes it easy for anyone with SQL skills to quickly analyze large-scale datasets.
 
 This application shows you how you can create a [database and tables](https://docs.aws.amazon.com/athena/latest/ug/understanding-tables-databases-and-the-data-catalog.html) to query your STF IoT Datalake. We assume you have deployed the [STF Core](https://github.com/aws-samples/aws-stf-core-scorpio) before you deploy this application. 
