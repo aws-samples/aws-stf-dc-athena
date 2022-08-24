@@ -13,7 +13,7 @@ Athena is easy to use. Simply point to your data in Amazon S3, define the schema
 
 <br>
 
-![Query](./docs/images/arch.png)
+![Arch](./docs/images/arch.png)
 
 <br>
 
@@ -91,7 +91,7 @@ This section provides links to additional resources that may help deploy and ope
 
 - [Smart Territory Framework Catalog](https://github.com/aws-samples/aws-stf)
 - [Smart Territory Framework - Foundations for Smart Territories](https://youtu.be/4MRZiC1VvKQ)
-- [Getting started with AWS IoT Core for LoRaWAN](https://www.youtube.com/watch?v=6-ZrdRjqdTk). 
+- [Getting started with Amazon Athena](https://docs.aws.amazon.com/athena/latest/ug/getting-started.html). 
 - [STF Core](https://github.com/aws-samples/aws-stf-core-scorpio).
 - [AWS CDK Workshop](https://cdkworkshop.com/)
 - [JSON-LD, NGSI-LD, Digital Twins and Smart Data Models](https://www.youtube.com/watch?v=dfigPKx99Bs)
