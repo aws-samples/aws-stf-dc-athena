@@ -13,7 +13,7 @@ Athena is easy to use. Simply point to your data in Amazon S3, define the schema
 
 <br>
 
-![Arch](./docs/images/arch.png)
+![Archicture](./docs/images/arch.png)
 
 <br>
 
